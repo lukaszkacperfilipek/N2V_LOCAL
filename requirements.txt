@@ -4,4 +4,4 @@ nibabel>=3.0.0
 tqdm>=4.45.0
 h5py>=2.10.0
 matplotlib>=3.2.0
-scikit-image>=0.16.2 
+scikit-image>=0.16.2        

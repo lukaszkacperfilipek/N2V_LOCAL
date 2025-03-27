@@ -2,7 +2,6 @@
 
 A tool for denoising brain MRI scans using the Noise2Void deep learning method. This project enables efficient denoising of NIFTI (.nii) files with an easy-to-use command-line interface.
 
-![Brain MRI Denoising Example](https://i.imgur.com/PLACEHOLDER.jpg)
 
 ## Table of Contents
 - [Installation](#installation)
@@ -29,18 +28,13 @@ A tool for denoising brain MRI scans using the Noise2Void deep learning method. 
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/noise2void-mri-denoiser.git
-   cd noise2void-mri-denoiser
+   git clone https://github.com/lukaszkacperfilipek/N2V_LOCAL.git
+   cd N2V_LOCAL
    ```
 
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
-   ```
-
-3. Run the setup script to organize the project structure:
-   ```bash
-   python setup_project.py
    ```
 
 ## Quick Start
@@ -136,7 +130,6 @@ python denoise_nifti.py --input_dir /path/to/nifti_files --batch_size 16
 ```
 noise2void-mri-denoiser/
 ├── denoise_nifti.py       # Main script for denoising
-├── setup_project.py       # Script to set up project structure
 ├── README.md              # This documentation file
 ├── models/                # Directory for model checkpoints
 │   └── checkpoint_epoch_014.keras  # Pre-trained model
@@ -213,17 +206,3 @@ To get more detailed logs, run with:
 ```bash
 python denoise_nifti.py --input_dir /path/to/nifti_files --log_level DEBUG
 ```
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Citation
-
-If you use this tool in your research, please cite:
-
-```
-Krull, A., Buchholz, T. O., & Jug, F. (2019). 
-Noise2void-learning denoising from single noisy images. 
-In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition (pp. 2129-2137).
-``` 
