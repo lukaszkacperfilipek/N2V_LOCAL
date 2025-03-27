@@ -29,6 +29,5 @@ denoised_output/
 *.nii
 *.nii.gz
 *.h5
-
 # Logs
 *.log
